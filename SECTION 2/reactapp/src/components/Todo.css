@@ -1,0 +1,12 @@
+.task-body{
+    border : 2px solid green;
+    background-color: rgb(244, 202, 124);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.task-body p{
+    margin:0;
+    color : royalblue
+}

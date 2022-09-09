@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Form</title>
+
+</head>
+<style>
+    body{
+        margin: 0;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* background: linear-gradient(69deg, white 30% , blue); */
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.199), rgba(0, 0, 255, 0.171)), url("https://cutewallpaper.org/25/anime-love-bed-wallpaper/anime-room-dark-wallpapers-wallpaper-cave.png");
+            backdrop-filter: blur(4px);
+        }
+    h3{
+        text-align: center;
+        color: red;
+    }
+    .myinput{
+        width: auto;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 10px;
+        height: 30px;
+        text-align: center;
+    }
+    .mybtn{
+    
+    padding: 10px 20px;
+    background-color: red;
+    font-size: 1em;
+    color: white;   
+    font-weight: bold;
+    
+    width: 45%;
+    /* x-offset, y offset blur, size, color */
+    box-shadow: 5px 5px 5px 1px black;
+    }
+    .mycard{
+border: 0px solid black ;
+border-radius: 15px;
+width: 50%;
+/* margin: auto; */
+padding: 20px;
+ /* x-offset, y offset blur, size, color */
+box-shadow: 2px 2px 5px navy;
+color:black;
+background-color: white;
+/* width: 500px;  */
+height: auto;        
+margin: 0 auto; /* Added */
+float: none; /* Added */
+margin-bottom: 10px; /*
+  
+
+  /* border-radius: 2%/100px 100px 0px 00px; */
+
+}
+    </style>
+<div class="mycard" >
+<form>
+<body>
+    <h3>HOTEL OYO</h3>
+    <div style="display:flex;justify-content: space-between;" >
+        <label>First Name</label>
+    <input type="myinput" placeholder="Enter Your First Name">
+    <label>First Name</label>
+    <input type="myinput" placeholder="Enter Your Last Name">
+</div>
+<br>
+<div style="display:flex ;justify-content: space-between;" >
+<label>Address 1</label>
+    <input type="myinput" placeholder="Enter Your Address 1">
+    <label>Address 2</label>
+    <input type="myinput" placeholder="Enter Your Address 2">
+</div>
+<br>
+    <div style="display:flex ;justify-content: space-between;" >
+        <label>City</label>
+        <input type="myinput" placeholder="Enter Your City">
+        <label>State</label>
+    <input type="myinput" placeholder="Enter Your State">
+    <label>Pin Code</label>
+    <input type="myinput" placeholder="Enter Your Pin Code">
+    </div>
+    <br>
+    <div style="display:flex ;justify-content: space-between;" >
+        <label>Phone</label>
+        <input type="number" placeholder="Enter Your Phone No.">
+        <label>Email</label>
+        <input type="email" placeholder="Enter Your E-mail">
+    </div>
+    <br>
+    <div style="display:flex ;justify-content: space-between;" >
+        <label>Check-in-Date</label>    
+        <input type="date">
+        <label>Check-in-Time</label>
+        <input type="time">
+        <label>Check-out-Date</label>    
+        <input type="date">
+        <label>Check-out-Time</label>
+        <input type="time">
+    </div>
+    <br>
+    <div style="display:flex ;justify-content: space-between;" >
+        <label>Room Preference</label>    
+        <input type="radio" name="">
+        <label for="">AC</label>
+        <input type="radio" name="">
+        <label for="">NON AC</label>
+    </div>
+    <br>
+    <div style="display:flex ;justify-content: space-between;" >
+    <label> No. Of Adults</label>
+        <select name="" id=""  >
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+        </select>
+    <label> No. of Children</label>
+        <select name="" id="">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+        </select>
+    </div>
+    <br>
+    <div style="display: flex;justify-content:space-between">
+        <button class="mybtn"> Submit</button>
+        <button class="mybtn"> Reset</button> 
+        </div>
+        <br>
+    
+</body>
+</form>
+</div>
+</html>

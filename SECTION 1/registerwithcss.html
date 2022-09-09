@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <style>
+
+        *{
+            font-family: Kanit;
+        }
+    body{
+        margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* background: linear-gradient(69deg, white 30% , blue); */
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.199), rgba(0, 0, 255, 0.171)), url("https://images5.alphacoders.com/110/thumb-1920-1104367.jpg");
+            backdrop-filter: blur(8px);
+        }
+
+    .mycard{
+border: 0px solid black ;
+border-radius: 15px;
+width: 40%;
+/* margin: auto; */
+padding: 20px;
+ /* x-offset, y offset blur, size, color */
+box-shadow: 2px 2px 5px navy;
+color:black;
+background-color: white;
+
+}
+
+.myinput{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px;
+    font-size: 0.8em;
+    margin-top: 4px;
+    box-shadow: 2px 2px 5px rgb(34, 34, 247);
+    outline: none;
+}
+
+.mybtn{
+
+    padding: 10px 20px;
+    background-color: rgb(72, 53, 240);
+    font-size: 1em;
+    color: white;   
+    font-weight: bold;
+
+    width: 45%;
+    /* x-offset, y offset blur, size, color */
+    box-shadow: 5px 5px 5px 1px black;
+    
+
+
+}
+h3 {
+    text-align: center;
+    color: red;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="mycard">
+
+
+    <form>
+        <h3>Register Here to Continue</h3>
+        <hr>
+        <label>Full Name</label>
+        <input  class="myinput"placeholder="Enter Your Full Name">
+        <br>
+        <br>
+
+        <label>Email</label>
+        <input class="myinput" placeholder="Enter Your E-mail Address">
+        <br>
+        <br>
+
+        <label>Password</label>
+        <input class="myinput" type="password" placeholder="Enter Your Password">
+        <br>
+        <br>
+
+        <label>Date of Birth</label>
+        <input class="myinput" type="date"  placeholder="Enter Your DOB">
+        <br>
+        <br>
+
+        <label>City </label>
+        <input class="myinput" placeholder="Enter Your City" list="city">
+        <datalist id="city">
+            <option>Lucknow</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Chennai</option>
+            <option>Kolkata</option>
+            <option>Allahabd</option>
+            <option>Varanasi</option>
+            <option>Assam</option>
+        </datalist>
+
+        
+
+<br>
+<br>
+<div style="display: flex;justify-content:space-between">
+<button class="mybtn"> Register Now</button>
+<button class="mybtn"> Login</button> 
+</div>
+
+    </form>
+</div>
+</body>
+</html>
